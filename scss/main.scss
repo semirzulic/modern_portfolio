@@ -86,6 +86,10 @@ main {
         margin: auto;
         border-radius: 50%;
         border: $secondary-color 3px solid;
+        background-size: cover;
+        transform: rotate(272deg);
+        width: 250px;
+        height: 250px;
     }
     
     .bio {

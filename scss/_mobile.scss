@@ -45,9 +45,11 @@
         transform: translate3d(100%, 0, 0);
 
         .portrait {
-            background: url(../img/portrait_small.jpg);
+            background: url(../img/portrait.jpg);
             width: 150px;
             height: 150px;
+            background-size: cover;
+            transform: rotate(272deg);
         }
     }
 
@@ -74,5 +76,9 @@
 
     .projects {
         grid-template-columns: 1fr;
+    }
+
+    .contact {
+        
     }
 }
